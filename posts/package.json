@@ -2,13 +2,12 @@
      "name": "posts",
      "version": "1.0.0",
      "main": "index.js",
-     "devDependencies": {},
      "type": "module",
      "scripts": {
-          "start": "nodemon index.js --watch"
+          "start": "nodemon index.js -w"
      },
      "dependencies": {
-          "axois": "^0.0.1-security",
+          "axios": "^0.27.2",
           "cors": "^2.8.5",
           "express": "^4.18.1",
           "nodemon": "^2.0.18"
